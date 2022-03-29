@@ -1,0 +1,81 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00b77b;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin: 8px;
+  margin-left: 0px;
+  font-size: 1.35em;
+  font-family: Arvo, serif;
+}
+
+.cta {
+  font-size: 1.85em;
+  font-weight: 600;
+  width: 100vw;
+  padding: 0px 20px;
+}
+
+.cta-button {
+  padding: 12px 12px 12px 20px;
+}
+
+
+@keyframes display {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+    z-index: 15;
+  }
+  1% {
+    opacity: 1;
+  }
+  5% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 10;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.carousel {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  margin-top: 0px;
+  overflow: hidden;
+  background-image: url('cat3.png');
+}
+
+.carousel > .slide {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  overflow: hidden;
+  animation: display 18s infinite;
+}
+
+.carousel > .slide:nth-child(2) {
+  animation-delay: 6s;
+}
+.carousel > .slide:nth-child(3) {
+  animation-delay: 12s;
+}
