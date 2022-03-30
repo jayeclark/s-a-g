@@ -13,22 +13,22 @@
 </head>
 <body style="margin:0px">
   <div style="background-color:#00b77b; padding: 15px; display:flex; flex-wrap: nowrap; justify-content: space-between; align-items: center;">
-    <div style="color:white; padding: 10px;">
+    <div style="color:white; padding: 10px; cursor: pointer;">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
       </svg>
     </div>
     <img src="saglogo.png" height="55px">
   </div>
-  <div class="carousel" style="position: relative; overflow: hidden; background-color:#dfe0df; display: flex; flex-wrap: nowrap;">
+  <div class="carousel" style="position: relative; overflow: hidden; background-color:#dfe0df; background-repeat:no-repeat; display: flex; flex-wrap: nowrap;">
     <div class="slide">
       <img src="cat1.png" style="position: relative">
       <div style="color:white; position:absolute; bottom: 65px; left: 0px;">
         <div class="cta">
-          Click to save a life.
+          Join the<br>Paseo Kitty Club.
         </div>
         <div class="cta-button">
-          <button>Sponsor</button>
+          <button style="cursor:pointer">Sponsor Me</button>
         </div>
       </div>  
     </div>
@@ -36,10 +36,10 @@
       <img src="cat2.png">
       <div style="color:white; position:absolute; top: 140px; left: 0px;">
         <div class="cta">
-          Provide a loving home.
+          Provide a home<br>for a friendly cat.
         </div>
         <div class="cta-button">
-          <button>Adopt</button>
+          <button style="cursor:pointer">Adopt</button>
         </div>
       </div>  
     </div>
@@ -47,20 +47,20 @@
       <img src="cat3.png">
       <div style="color:white; display: flex; flex-wrap: wrap; justify-content: right; position:absolute; bottom: 65px; left: 0px;">
         <div class="cta" style="text-align: right"> 
-          Become a caretaker.
+          Help get Juan off the street.
         </div>
         <div class="cta-button">
-          <button>Volunteer</button>
+          <button style="cursor:pointer">Donate</button>
         </div>
       </div>  
     </div>
-    <div class="pattern-diagonal-lines-sm" style="position: absolute; z-index: 99; width: 100%; font-size:2.25rem; font-weight:600; letter-spacing: 2px; font-family: 'Arvo', serif;color:rgb(250, 198, 28);background-color:rgba(252, 188, 45, 1); min-height: 115px; display:flex; justify-content:center; align-items:center">
+    <div class="pattern-diagonal-lines-sm" style=" cursor: pointer; position: absolute; z-index: 99; width: 100%; font-size:2.25rem; font-weight:600; letter-spacing: 2px; font-family: 'Arvo', serif;color:rgb(250, 198, 28);background-color:rgba(252, 188, 45, 1); min-height: 115px; display:flex; justify-content:center; align-items:center">
       <span style="color: white">DONATE&nbsp;&nbsp;NOW</span>
     </div>
   </div>
   <div style="padding: 20px; text-align: center; background-color: #DFE0DF">
-    <h1 style="margin-top: 0px">Our Adoptable Cats</h1>
-    <div style="padding-bottom: 20px;">
+    <h1 style="margin-top: 0px">Adoptable Cats</h1>
+    <div style="padding-bottom: 20px; cursor: pointer;">
       <div style="background-color: white; position: relative; display: flex; align-items: center; align-content: center; flex-wrap: nowrap; overflow: hidden; border-radius: 6px; box-shadow: 2px 2px 8px rgba(0,0,0,0.25); width: 100%; justify-items: stretch; justify-content: stretch">
         <div style="flex-shrink: 0; flex-grow: 0; min-width: 180px; min-height: 180px; height: 180px; width: 180px; overflow: hidden; border-bottom-right-radius: 60px 150%; border-top-right-radius: 60px 150%">
           <img src="adopt1.png" width="180px" style="filter:brightness(120%)" >
@@ -80,7 +80,7 @@
       </div>
       
     </div>
-    <div style="padding-bottom: 20px;">
+    <div style="padding-bottom: 20px; cursor: pointer;">
       <div style="background-color: white; position: relative; display: flex; align-items: center; align-content: center; flex-wrap: nowrap; overflow: hidden; border-radius: 6px; box-shadow: 2px 2px 8px rgba(0,0,0,0.25); width: 100%; justify-items: stretch; justify-content: stretch">
         <div style="text-align: right; flex-shrink: 1; flex-grow: 1; background-color: white; padding: 15px;">
           <div style="margin: auto 0px">
@@ -100,7 +100,7 @@
       </div>
       
     </div>
-    <div style="padding-bottom: 20px;">
+    <div style="padding-bottom: 20px; cursor: pointer;">
       <div style="background-color: white; position: relative; display: flex; align-items: center; align-content: center; flex-wrap: nowrap; overflow: hidden; border-radius: 6px; box-shadow: 2px 2px 8px rgba(0,0,0,0.25); width: 100%; justify-items: stretch; justify-content: stretch">
         <div style="flex-shrink: 0; flex-grow: 0; min-width: 180px; min-height: 180px; height: 180px; width: 180px; overflow: hidden; border-bottom-right-radius: 60px 150%; border-top-right-radius: 60px 150%">
           <img src="adopt2.png" width="180px" style="filter:brightness(120%)" >
@@ -120,9 +120,47 @@
       </div>
       
     </div>
-    <div><a style="cursor: pointer; color: #00B77B"><b>View more&nbsp;</b><svg style="margin-bottom: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+    <div><a style="cursor: pointer; color: rgb(0, 183, 123)"><b>View more&nbsp;</b><svg style="margin-bottom: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
     </svg></a></div>
+  </div>
+  <div style="padding: 0px 20px 20px 20px">
+    <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
+      <img src="cat8.jpeg" height="100%" style="overflow: hidden; ">
+    </div>
+    <h2 style="text-align: center;">What We Do</h2>
+    <p style="line-height: 160%">Save A Gato (SAG) was created in 2004 to address the booming 
+      cat population in historic Old San Juan. We trap, neuter and return (TNR) cats in the colony, find 
+      homes for those who can be adopted, and provide food & medical care for those who cannot. 
+      Since 2004, our efforts have reduced the colony size by 50%. </p>
+    <button style="width: 100%; letter-spacing: 1px; cursor:pointer;">READ MORE</button>
+  </div>
+  <div style="padding: 20px; background-color: #DFE0DF">
+    <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
+      <img src="cat7.jpeg" height="100%" style="overflow: hidden; ">
+    </div>
+    <h2 style="text-align: center;">How You Can Help</h2>
+    <p style="line-height: 160%">Make a donation, 
+      purchase an item from our online store, set Save a Gato as your preferred charity on Amazon smile, or provide
+      a forever home for an adoptable cat. Residents of Puerto Rico can also support our efforts by volunteering 
+      or providing a foster homes.</p>
+    <div style="display: flex;">
+      <button style="width: 50%; letter-spacing: 1px; cursor: pointer;">SHOP</button>
+      <button style="width: 50%; letter-spacing: 1px; cursor: pointer;">DONATE</button>
+    </div>
+  </div>
+  <div style="padding: 20px; background-color: rgb(170, 140, 92); color: white">
+    <div style="height: auto; width: 80vw; overflow: hidden; border-radius: 10px; border: 4px solid transparent; margin: 20px auto;">
+      <img src="walking.png" width="100%" style="overflow: hidden; margin: -10px 0px;">
+    </div>
+    <h2 style="text-align: center;">Visit the Cats</h2>
+    <p style="line-height: 160%">The Paseo cats are a top tourist atraction 
+      in Old San Juan, and a much-loved stop on many animal lovers' visits to our city.
+      Our interactive walking tour can help you make the most of your visit. 
+    </p>
+    <div style="display: flex;">
+      <button style="width: 100%; color: #666; background-color: white; letter-spacing: 1px; cursor: pointer;">START TOUR</button>
+    </div>
   </div>
   <div style="padding: 0px 20px 10px 20px; text-align: center">
     <h1>Education & Advocacy</h1>
@@ -130,13 +168,35 @@
   </div>
   <div style="padding: 0px 20px 20px 20px">
     <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
+      <img src="cat9.jpeg" width="100%" style="overflow: hidden; transform: translate(0, -15%);">
+    </div>
+    <h2 style="text-align: center;">Campaign Against Abandonment</h2>
+    <p style="line-height: 160%">Adopting an animal is a <b>lifetime commitment</b> and should be taken very seriously. 
+      Pets who are abandoned become disoriented, confused, depressed, and often die.
+      Illegal dumping of animals is a criminal offense punishable with a fine of $1,000 and up to six months jail time. 
+    </p>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
+  </div>
+  <div style="padding: 20px; background-color: #DFE0DF">
+    <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
+      <img src="cat10.jpeg" height="100%" style="overflow: hidden; transform: translate(-10%, 0);">
+    </div>
+    <h2 style="text-align: center;">Volunteering</h2>
+    <p style="line-height: 160%">Save a Gato wouldn't be possible without our dedicated 
+      volunteers. There are many ways you can help us make a difference.</p>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
+  </div>
+  <div style="padding: 0px 20px 20px 20px">
+    <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
       <img src="cat4.jpeg" height="100%" style="overflow: hidden; ">
     </div>
     <h2 style="text-align: center;">Trap, Neuter, Return</h2>
-    <p style="line-height: 160%">Steps to follow to start a trap, neuter & return (TNR) program in your area. Starting 
-      your own TNR program may seem scary at first, but that's how our organization started.
-      We believe you can do this too! </p>
-    <button style="width: 100%">READ MORE</button>
+    <p style="line-height: 160%">​The ASPCA (American Society for the Prevention of 
+      Cruelty to Animals) points out that the method of Trap-Neuter-Return (TNR) 
+      is the only humane and effective way to manage feral cat colonies. Read the 
+      benefits of this approach and learn the steps to take to start a trap, neuter 
+      & return (TNR) program in your area.</p>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
   </div>
   <div style="padding: 20px; background-color: #DFE0DF">
     <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
@@ -145,25 +205,30 @@
     <h2 style="text-align: center;">Act 60</h2>
     <p style="line-height: 160%">Save a Gato has earned GuideStar's Gold Seal of transparency and is an excellent 
       choice to help fulfill your Act 60 annual donation requirement.</p>
-    <button style="width: 100%">READ MORE</button>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
   </div>
   <div style="padding: 20px">
     <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
       <img src="cat5.jpeg" height="100%" style="overflow: hidden; ">
     </div>
-    <h2 style="text-align: center;">Pet Advice</h2>
-    <p style="line-height: 160%">General information to help you become a more informed cat owner.</p>
-    <button style="width: 100%">READ MORE</button>
+    <h2 style="text-align: center;">If You Find a Stray Cat</h2>
+    <p style="line-height: 160%">
+      As an all-volunteer organization focused solely on the feral cats of Old San Juan, we 
+      are unfortunately unable to help with most cases of abandoned and stray cats. There are 
+      several key steps you can take on your own to improve a stray's quality of life and 
+      increase the likelihood of finding a forever home for it. 
+    </p>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
   </div>
   <div style="padding: 20px; background-color: #DFE0DF">
     <div style="height: 80vw; width: 80vw; overflow: hidden;border-radius: 100vw; border: 4px solid #FCBC2D; margin: 20px auto;">
-      <img src="cat6.jpeg" width="100%" style="overflow: hidden; ">
+      <img src="cat1.png" width="100%" style="overflow: hidden; ">
     </div>
-    <h2 style="text-align: center;">We Are Not A Shelter</h2>
-    <p style="line-height: 160%">We <u>DO NOT</u> accept surrenders. Read 
-      our FAQs to better understand the focus of our work: supporting and controlling the population 
-      of the feral cat colonies of Old San Juan. </p>
-    <button style="width: 100%">READ MORE</button>
+    <h2 style="text-align: center;">We are not a shelter</h2>
+    <p style="line-height: 160%">We <u>DO NOT</u> accept surrenders and we are <u>NOT</u> a 
+      sanctuary. Read our FAQs to better understand the focus of our work: reducing the population 
+      of feral cats in Old San Juan and improving the quality of life for the cats who remain in the colony. </p>
+    <button style="width: 100%; letter-spacing: 1px; cursor: pointer;">READ MORE</button>
   </div>
   <!-- FOOTER PADDING -->
   <div style="padding: 20px 20px 80px 20px">
@@ -182,8 +247,8 @@
     </div>
   </div>
 
-  <div style="position: fixed; z-index: 999; width: 100vw; bottom: 0px; font-size: 0.85em; font-weight: bold; background-color:#aa8c5c; align-items: center; color:white; padding: 15px; display:flex; justify-content:space-evenly">
-    <div>
+  <div style="position: fixed; z-index: 999; width: 100vw; bottom: 0px; font-size: 0.85em; font-weight: bold; background-color:#00b77b; align-items: center; color:white; padding: 15px; display:flex; justify-content:space-evenly">
+    <div style="cursor: pointer">
       <div style="text-align:center">      
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
@@ -191,7 +256,7 @@
       </div>
       <div style="text-align:center">Adopt</div>
     </div>
-    <div>
+    <div style="cursor: pointer">
       <div style="text-align:center">      
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
           <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -201,7 +266,7 @@
       </div>
       <div style="text-align:center">Volunteer</div>
     </div>
-    <div>
+    <div style="cursor: pointer">
       <div style="text-align:center">      
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0V4zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/>
@@ -209,7 +274,7 @@
       </div>
       <div style="text-align:center">Donate</div>
     </div>
-    <div>
+    <div style="cursor: pointer">
       <div style="text-align:center">      
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
           <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
